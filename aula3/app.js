@@ -108,19 +108,19 @@
     //console.log(i);
 //});
 ///////////////////////////
-let obj ={
+//let obj ={
     name:"Jessie",
     age: 26,
     gender:"woman",
-}
+//}
 
-console.log(obj["name"])
+//console.log(obj["name"])
 
-for ( const key in obj) {
+//for ( const key in obj) {
     //if (Object.hasOwnPropety.call(object, key)) {
        //const element =object[key];
     //}
 
 //console.log(obj[key]);
-}
+//}
 
