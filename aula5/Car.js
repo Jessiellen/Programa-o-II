@@ -1,10 +1,10 @@
-//import Vehicle from "./Vehicle.js";
+import Vehicle from "./Vehicle.js";
 
-//class Car extends Vehicle {
+ export default class Car extends Vehicle {
 
-    //constructor() {
-        //super();
-        //this.speed = 20;
-        //console.log("car speed",this.speed);
-    //}
-//}
+    constructor(data) {
+        super(data);
+        this.speed = 20;
+        console.log("car speed",this.speed);
+    }
+}

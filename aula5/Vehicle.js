@@ -1,8 +1,9 @@
-//export default class Vehicle {
+export default class Vehicle {
    
-    //speed = 10;
+    speed = 10;
 
-    //construtor () {
-
-    ////}
-//}
+    construtor (data) {
+        this.speed =data.speed;
+        this.brand = data.speed;
+    }
+}

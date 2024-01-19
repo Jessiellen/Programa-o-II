@@ -1,90 +1,80 @@
-console.log("hello");
 
-//let a = 1;
-//let b = 0;
+import Car from "./Car.js";
+import Motorcycle from "./Motorcycle.js";
+const data = {
+    cars: [
+    {
+        brand:"Ferrari",
+        speed: 200,
+    },
+    {
+    brand:"Fiat",
+    speed: 50,
+    },
+    ],   
+    motorcycles: [
+    {
+        brand: "Ducatti",
+        speed: 400,
+    },
+    {
+        brand: "Kawazaki",
+        speed: 500,
+    },
+    ],
+};
+
+    const vehicles = []
+    window.onload = () => {
+    console.log("window loaded");
+    const nav = document.querySelector("nav");
+
+    const createUL = (name,data) => {
+        const ul = document.createElement("ul");
+        const title = document.createElement("li");
+        title.innerText = name;
+        ul.appendChild(title);
+        console.log(name);
+        
+        data.forEach((element) => {
+            const li = document.createElement("li");
+            const button = document.createElement("button");
+            button.onclick = (event) => {
+                switch (name) {
+                    case "cars":
+                        vehicles.push(new Car(element));
+                    break;  
+                    case "motorcycles":
+                        vehicles.push(new Motorcycle(element));
+                    break;  
+
+                    default:
+                    break;            }
+                console.log(vehicles);
+        }
+            button.innerText = element.brand;
+            li.appendChild(button);
+            ul.appendChild(li);
+        });
 
 
-//const fibonnaci = () => {
+        nav.appendChild(ul);
 
-    //for (let i = 0; i <= 10; i++) {
-        //const temp = a;
-        //a = a + b
-        //b = temp;
-        //console.log(a);
-//}
-//}
-///////////////////////////////////
+    };
 
-//let user = {
-    //id: 0,
-    //name:"Jessie",
-    //age: 26,
-    //gender: "female",
-    //dob: "28-09-1997",
-    //hobbies: ["music","travel","read"]
-//}
-//for (const key in user) {
-        //console.log(user[key]);
-    //}
-    /////////////////////////////
-
-//const originalObjects = {
-    //key1: "value1",
-    //key2: "value2",
-    //key3: "value3",
-//};
-//////////////////
-
-
-//let user = {
-    //id: 0,
-   // name:"Jessie",
-    //age: 26,
-   // gender: "female",
-    //dob: "28-09-1997",
-    //hobbies: ["music","travel","read"]
-//}
-
-//class User {
-
-    //#name;              //Sempre que tiver "#" é privado
-    //age;
-
-    //constructor (user) {
-       // this.#name = user.name,
-        //this.age = user.age;
-        //console.log("class user initiaterd");
-        //console.log(this.#getName());
-    //}
-    //#getName() {
-        //console.log("return user the name"); ou
-        //return this.#name;
-    //}
-    //getAge () {
-        //console.log("return user the age"); ou
-       // return this.age;
-    //}
+    //createUL();
+    //build layout
+    for (const key in data) {
+        //console.log(key);
+        createUL(key, data[key]);
     
-    //set name(value) {
-        //this.#name = value;
-    //}
-    //get name () {
-        //return this.#name
-    //}    
+    }
+}
 
-//}
-//const user2 = new User(user);
-//user2.name = "Jessie";
-//user2.age = user.age;
-//console.log(user2.#getName());
-//console.log(user2.getAge());
 
- //user2.getName();
- //user2.getAge();
 
-//import Car from "./Car.js";
-//import Motocycle from "./Motocycle.js";
-//const car = new Car();
-//const motocycle = new Motocycle();
-//console.log(Car);
+ //console.log(navList);
+///onst car = new Car();
+///const motocycle = new Motocycle();
+
 
