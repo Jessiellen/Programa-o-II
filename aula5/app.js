@@ -49,7 +49,7 @@ const data = {
                     break;  
 
                     default:
-                    break;            }
+                    break;            }                                                                             
                 console.log(vehicles);
         }
             button.innerText = element.brand;
