@@ -1,21 +1,21 @@
-export default class Vehicle {
+//export default class Vehicle {
    
-    speed = 10;
-    brand;
-    imagePath;
+    //speed = 10;
+    //brand;
+    //imagePath;
 
-    construtor (data) {
-        this.speed =data.speed;
-        this.brand = data.speed;
-        this.imagePath = data.image;
+    //construtor (data) {
+        //this.speed =data.speed;
+        //this.brand = data.speed;
+        //this.imagePath = data.image;
 
-        this.build();
-    }
+        //this.build();
+    //}
 
-    build() {
-        const img = document.createElement("img");
-        img.src = this.image.Path;
+    //build() {
+        //const img = document.createElement("img");
+        //img.src = this.image.Path;
 
-        document.body.appendChild(img);
-    }
-}
+        //document.body.appendChild(img);
+    //}
+//}
