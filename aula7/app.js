@@ -90,7 +90,12 @@ window.addEventListener("load", async () => {
   playButton = document.querySelector("#play_pause");
   playButton.onclick = () => {
 
-    isPlaying ? stop() : play();
-    
+    playButton.className === "inactive") {
+        playButton.className = "";
+        
+    }
+
+    isPlaying ? stopAnimation() : playAnimation();
+}
   }
 })
