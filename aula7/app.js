@@ -91,11 +91,9 @@ window.addEventListener("load", async () => {
   playButton.onclick = () => {
 
     playButton.className === "inactive") {
-        playButton.className = "";
-        
+        playButton.className = "";   
     }
 
     isPlaying ? stopAnimation() : playAnimation();
 }
-  }
-})
+}
