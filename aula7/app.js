@@ -1,50 +1,50 @@
-import Car from "./Car.js";
-import Motorcycle from "./Motorcycle.js";
-import Boat from "./Boat.js";
+//import Car from "./Car.js";
+//import Motorcycle from "./Motorcycle.js";
+//import Boat from "./Boat.js";
 
-let currentVehicle;
+//let currentVehicle;
 
-const loadData = async (url) => {
+//const loadData = async (url) => {
 
-  const request = await fetch(url);
-  const result = await request.json();
+  //const request = await fetch(url);
+  //const result = await request.json();
 
-  return result;
-}
+ // return result;
+//}
 
-const createLiContent = (item) => {
-  const button = document.createElement("button");
-  button.innerText = item.brand;
+//const createLiContent = (item) => {
+  //const button = document.createElement("button");
+  //button.innerText = item.brand;
 
-  button.onclick = () => {
+  //button.onclick = () => {
 
-    if(currentVehicle) {
-      currentVehicle.destroy();
-    }
+    //if(currentVehicle) {
+      //currentVehicle.destroy();
+    //}
 
-    switch (item.type) {
-      case "car":
-        currentVehicle = new Car(item);
-      break;
-      case "motorcycle":
-        currentVehicle = new Motorcycle(item);
-        break;
-      case "boat":
-        currentVehicle = new Boat(item);
-        break;
-    }
-  }
-  return button;
-}
+    //switch (item.type) {
+      //case "car":
+        //currentVehicle = new Car(item);
+      //break;
+      //case "motorcycle":
+        //currentVehicle = new Motorcycle(item);
+        //break;
+      //case "boat":
+        //currentVehicle = new Boat(item);
+        //break;
+    //}
+ // }
+  //return button;
+//}
 
-const createList = (data) => {
-  const ul = document.querySelector("ul");
-  data.forEach(item => {
-    const li = document.createElement("li");
-    li.appendChild(createLiContent(item));
-    ul.appendChild(li);
-  });
-}
+//const createList = (data) => {
+  //const ul = document.querySelector("ul");
+  //data.forEach(item => {
+    //const li = document.createElement("li");
+    //li.appendChild(createLiContent(item));
+    //ul.appendChild(li);
+  //});
+//}
 
 // window.onload = async () => {
 
@@ -57,43 +57,43 @@ const createList = (data) => {
 // }
 
 
-let isPlaying = null;
-let playButton;
+//let isPlaying = null;
+//let playButton;
 
-const animate = () => {
-    console.log("new animation frame"); 
+//const animate = () => {
+    //console.log("new animation frame"); 
 
-    currentVehicle.animate();
-    isPlaying = requestAnimationFrame(animate);
-}
-const playAnimation = () => {
-    isPlaying= requestAnimationFrame(animate);
-    console.log(isPlaying); 
-    playButton.innerText = "Stop";
-    playButton.className = "red";
-}
+    //currentVehicle.animate();
+    //isPlaying = requestAnimationFrame(animate);
+//}
+//const playAnimation = () => {
+    //isPlaying= requestAnimationFrame(animate);
+    //console.log(isPlaying); 
+    //playButton.innerText = "Stop";
+    //playButton.className = "red";
+//}
 
-const stopAnimation = () => {
-    cancelAnimationFrame=(isPlaying);
-    isPlaying= null;
-    playButton.innerText = "Play";
-    playButton.className = "green";
-}
+//const stopAnimation = () => {
+    //cancelAnimationFrame=(isPlaying);
+    //isPlaying= null;
+    //playButton.innerText = "Play";
+   // playButton.className = "green";
+//}
 
-window.addEventListener("load", async () => {
+//window.addEventListener("load", async () => {
 
-  const data = await loadData("data.json");
-  data.sort((a, b) => a.type.localeCompare(b.type));
+  //const data = await loadData("data.json");
+  //data.sort((a, b) => a.type.localeCompare(b.type));
 
-  const ul = createList(data);
+  //const ul = createList(data);
 
-  playButton = document.querySelector("#play_pause");
-  playButton.onclick = () => {
+  //playButton = document.querySelector("#play_pause");
+  //playButton.onclick = () => {
 
-    playButton.className === "inactive") {
-        playButton.className = "";   
-    }
+    //playButton.className === "inactive") {
+        //playButton.className = "";   
+    //}
 
-    isPlaying ? stopAnimation() : playAnimation();
-}
-}
+   // isPlaying ? stopAnimation() : playAnimation();
+//}
+//}

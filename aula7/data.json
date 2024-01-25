@@ -1,37 +1,37 @@
-[
-    {
-        "type":"car",
-        "brand":"ferrari",
-        "speed": 900,
-        "image": "imags/ferrari.png"
-    },
-    {
-        "type":"car",
-        "brand":"fiat",
-        "speed": 50,
-        "image": "imags/fiat.jpg"
-    },
-    {
-        "type":"motorcycle",
-        "brand":"ducatti",
-        "speed": 900,
-        "image": "imags/ducatti.png"
-    },
-    {
-        "type":"motorcycle",
-        "brand":"kawazaki",
-        "speed": 600,
-        "image": "imags/kawazaki.jpg"
-    },
-    {   "type":"car",
-        "brand":"renault",
-        "speed": 50,
-        "image": "imags/renault.jpg"
-},
-    {
-        "type":"boat",
-        "brand":"titanic",
-        "speed": 2000,
-        "image": "imags/titanic.jpg" 
-    }
-]
+//[
+    //{
+        //"type":"car",
+        //"brand":"ferrari",
+        //"speed": 900,
+        //"image": "imags/ferrari.png"
+   // },
+   // {
+       // "type":"car",
+        //"brand":"fiat",
+        //"speed": 50,
+        //"image": "imags/fiat.jpg"
+    //},
+    //{
+       // "type":"motorcycle",
+        //"brand":"ducatti",
+       // "speed": 900,
+       // "image": "imags/ducatti.png"
+    //},
+   //{
+       // "type":"motorcycle",
+       // "brand":"kawazaki",
+       // "speed": 600,
+       // "image": "imags/kawazaki.jpg"
+    //},
+   // {   "type":"car",
+       // "brand":"renault",
+       // "speed": 50,
+       // "image": "imags/renault.jpg"
+//},
+   // {
+        //"type":"boat",
+       // "brand":"titanic",
+       // "speed": 2000,
+        //"image": "imags/titanic.jpg" 
+   /// }
+//]

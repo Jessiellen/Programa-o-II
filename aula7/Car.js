@@ -1,8 +1,8 @@
-import Vehicle from "./Vehicle.js";
+//import Vehicle from "./Vehicle.js";
 
-export default class Car extends Vehicle {
+//export default class Car extends Vehicle {
 
-   constructor(data) {
-       super(data);
-    }
-}
+   //constructor(data) {
+       //super(data);
+    //}
+//}
