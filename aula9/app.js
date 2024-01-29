@@ -138,25 +138,25 @@
   //end = index >= array.length;
 //}
 
-class Test = (2) => {
-  return 2
+//class Test = (2) => {
+  //return 2
 
-  result = 2
-}
+  //result = 2
+//}
 
-console.log(result)
+//console.log(result)
 
 
-class Test {
-  constructor() {
+//class Test {
+ // constructor() {
 
-  }
+ // }
 
-  showNumber() {
-    return 2
-  }
-}
+ // showNumber() {
+   // return 2
+  //}
+//}
 
-console.log("-------");
-console.log(new Test().showNumber());
+//console.log("-------");
+//console.log(new Test().showNumber());
 
