@@ -1,0 +1,34 @@
+[
+    {
+        "type": "bird",
+        "name": "seagull",
+        "canFly": true
+    },
+    {
+        "type": "bird",
+        "name": "chiken",
+        "canFly": false
+    },
+    {
+        "type": "mammal",
+        "name": "horse",
+        "numLegs": 4
+    },
+    {
+        "type": "mammal",
+        "name": "hipoppotomus",
+        "numLegs": 4
+    },
+    {
+        "type": "reptile",
+        "name": "crocodile",
+        "isAgressive": true 
+    },
+    {
+        "type": "reptile",
+        "name": "gecko",
+        "isAgressive": false
+    }
+
+    
+]
