@@ -1,14 +1,14 @@
-import Bird from "./Bird.js";
-import Mammal from "./Mammal.js";
-import Reptile from "./Reptile.js";
-import Zoo from "./Zoo.js";
+// import Bird from "./Bird.js";
+// import Mammal from "./Mammal.js";
+// import Reptile from "./Reptile.js";
+// import Zoo from "./Zoo.js";
 
-window.onload = () => {
+// window.onload = () => {
 
-    const request = await fetch("data.json");
-    const resuolt = await request.json();
+//     const request = await fetch("data.json");
+//     const resuolt = await request.json();
 
-    console.log(result);
+//     console.log(result);
 
     //const seagull = new Bird('seagull',true);
     //console.log(seagull.fly());
@@ -29,39 +29,19 @@ window.onload = () => {
     //console.log(gecko.bite());
 
 
-    const zoo = new Zoo ();
-    result.forEach(item => {
+    // import Zoo from "./Zoo.js";
 
-        switch(item,type) {
-            case "bird":
-                animal= new Bird (item.name, item.canFly);
-            break;
-
-            case "mammal":
-                animal= new Mammal (item.name, item.numLegs);
-            break;
-            case "reptile":
-                animal= new Reptale (item.name, item.isAgressive);
-
-            break;
-
-            default: 
-                break;
-        }
-    }
-    )}
-
-        
-    // Zoo.addAnimal(seagull);
-    // Zoo.addAnimal(chicken);
-    // Zoo.addAnimal(horse);
-    // Zoo.addAnimal(hipoppotomus);
-    // Zoo.addAnimal(crocodile);
-    // Zoo.addAnimal(gecko);
-    zoo.addAnimals(animal);
-    zoo.showAnimals();
-
-  
-
-
-}
+    // window.onload = async () => {
+    
+    //     console.log(Zoo.ZooInfo());
+    
+    //     const request = await fetch("data.json");
+    //     const result = await request.json();
+    
+    //     const zoo = new Zoo(() => {
+    //         console.log("zoo event");
+    //     });
+    //     result.forEach(item => {
+    //         zoo.addAnimal(item);
+    //     });
+    // }

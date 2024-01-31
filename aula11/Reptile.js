@@ -1,17 +1,17 @@
-import Animal from "./Animal.js";
+// import Animal from "./Animal.js";
 
-export default class Reptile extends Animal {
+// export default class Reptile extends Animal {
 
-    #isAgressive;
-    constructor(name) {
-        super(name);
-    }
+//     #isAgressive;
+//     constructor(name) {
+//         super(name);
+//     }
 
-    bite() {
-        return this.#isAgressive ?
-        this.introduce() + " and I'm agressive":
-        this.introduce() + " and I'm peacefill";
-    }
+//     bite() {
+//         return this.#isAgressive ?
+//         this.introduce() + " and I'm agressive":
+//         this.introduce() + " and I'm peacefill";
+//     }
 
 
-}
+// }
