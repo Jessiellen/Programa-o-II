@@ -68,5 +68,12 @@
         "IsFreshWater": true,
         "sound": "https://cdn.pixabay.com/audio/2021/08/04/audio_9fb0d24edb.mp3",
         "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Salmo_trutta_Trout_Aquarium_Atlanterhavsparken_Norway.jpg"
+    },
+    {
+        "type": "insect",
+        "name": "mosquito",
+        "IsBloodSucker": true,
+        "sound": "https://cdn.pixabay.com/audio/2022/03/24/audio_c3a1d53e44.mp3",
+        "image": "https://pt.wikipedia.org/wiki/Culicidae#/media/Ficheiro:Mosquito_2007-2.jpgg"
     }
     ]
