@@ -1,75 +1,75 @@
-# print("Hello word py")
+# # print("Hello word py")
 
-# a = 2
-# b =10  
-# c = 0
+# # a = 2
+# # b =10  
+# # c = 0
 
-# def func():
-#     # f = a + b
-#     # print(f)
-#     return a + b
+# # def func():
+# #     # f = a + b
+# #     # print(f)
+# #     return a + b
     
-# arr = [0, 10 ,12 ,89]
-# print(arr)
+# # arr = [0, 10 ,12 ,89]
+# # print(arr)
 
-# func()
+# # func()
 
-# print(a)
-# print(b)
-# print(c)
+# # print(a)
+# # print(b)
+# # print(c)
 
 
-"""variables in python"""
-# a = 2
-# b = 10
-# c = 0
+# """variables in python"""
+# # a = 2
+# # b = 10
+# # c = 0
 
-"""functions in python"""
-# def func():
-#     return a + b
+# """functions in python"""
+# # def func():
+# #     return a + b
 
-"""arrays in python"""
-# arr = [0, 10, 12, 89]
+# """arrays in python"""
+# # arr = [0, 10, 12, 89]
 
-"""for loop in python"""
-# print('python for loop')
-# length = len(arr)
-# for i in range(length):
-#     print(arr[i])
+# """for loop in python"""
+# # print('python for loop')
+# # length = len(arr)
+# # for i in range(length):
+# #     print(arr[i])
 
-"""for each loop in python"""
-# print('python forezach loop')
-# for element in arr:
-#     print(element)
+# """for each loop in python"""
+# # print('python forezach loop')
+# # for element in arr:
+# #     print(element)
 
-"""while loop in python"""
-# print('python while loop')
-# i = 0
-# while i < length:
-#     print(arr[i])
-#     i += 1
+# """while loop in python"""
+# # print('python while loop')
+# # i = 0
+# # while i < length:
+# #     print(arr[i])
+# #     i += 1
 
-"""functions with parameters in python"""
-# print('python addNumbers Function')
-# def addNumbers(a, b):
-#     return a + b
-# print(addNumbers(20, 40))
+# """functions with parameters in python"""
+# # print('python addNumbers Function')
+# # def addNumbers(a, b):
+# #     return a + b
+# # print(addNumbers(20, 40))
 
-"""classes in python"""
-# class Test:
-#     def __init__(self, name):
-#         self.name = name
+# """classes in python"""
+# # class Test:
+# #     def __init__(self, name):
+# #         self.name = name
 
-#     def sayHello(self):
-#         return "Hello I'm " + self.name
+# #     def sayHello(self):
+# #         return "Hello I'm " + self.name
     
-# testClass = Test("bruno python")
-# print(testClass.sayHello())
+# # testClass = Test("bruno python")
+# # print(testClass.sayHello())
 
-from py.Test import Test
-from py.Test2 import Test2
-test = Test("bruno python")
-print(test.sayHello())
+# from py.Test import Test
+# from py.Test2 import Test2
+# test = Test("bruno python")
+# print(test.sayHello())
 
-test2 = Test2("")
-print(test2.sayAge())
+# test2 = Test2("")
+# print(test2.sayAge())

@@ -1,17 +1,17 @@
-import Animal from "./Animal.js";
+// import Animal from "./Animal.js";
 
-export default class Mammal extends Animal {
+// export default class Mammal extends Animal {
 
-    #numLegs;
-    constructor(data, callback) {
-        super(data, callback);
+//     #numLegs;
+//     constructor(data, callback) {
+//         super(data, callback);
 
-        this.#numLegs = data.numLegs;
-    }
+//         this.#numLegs = data.numLegs;
+//     }
 
-    introduce() {
-        let parentIntroduce = super.introduce();
+//     introduce() {
+//         let parentIntroduce = super.introduce();
         
-        return parentIntroduce + " walking on " + this.#numLegs + " legs";
-    }
-}
+//         return parentIntroduce + " walking on " + this.#numLegs + " legs";
+//     }
+// }

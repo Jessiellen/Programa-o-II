@@ -1,20 +1,20 @@
-import Animal from "./Animal.js";
+// import Animal from "./Animal.js";
 
-export default class Bird extends Animal {
+// export default class Bird extends Animal {
 
-    #canFly;
-    constructor(data, callback) {
-        super(data, callback);
+//     #canFly;
+//     constructor(data, callback) {
+//         super(data, callback);
 
-        this.#canFly = data.canFly;
-    }
+//         this.#canFly = data.canFly;
+//     }
 
-    introduce() {
+//     introduce() {
 
-        let parentIntroduce = super.introduce();
+//         let parentIntroduce = super.introduce();
 
-        return this.#canFly ? 
-        parentIntroduce + " and I can fly" :
-        parentIntroduce + " and I can't fly";
-    }
-}
+//         return this.#canFly ? 
+//         parentIntroduce + " and I can fly" :
+//         parentIntroduce + " and I can't fly";
+//     }
+// }

@@ -1,10 +1,10 @@
-export default class MainTest {
-    #name
-    constructor(name) {
-        this.#name = name;
-    }
+// export default class MainTest {
+//     #name
+//     constructor(name) {
+//         this.#name = name;
+//     }
 
-    sayHello() {
-        return this.#name;
-    }
-}
+//     sayHello() {
+//         return this.#name;
+//     }
+// }
