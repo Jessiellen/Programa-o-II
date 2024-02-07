@@ -1,24 +1,24 @@
-let a = 12;
+// let a = 12;
 
-let arr = [12,23,54,56, () => {
-    console.log("hello");
-    // return "hello";
-},  "string A", true, {
-    type: "car"
-}]
+// let arr = [12,23,54,56, () => {
+//     console.log("hello");
+//     // return "hello";
+// },  "string A", true, {
+//     type: "car"
+// }]
 
 
-// window.onload = () => {
-//     console.log("loaded");
-// }
+// // window.onload = () => {
+// //     console.log("loaded");
+// // }
 
-// window.addEventListener("keydown", () => {
-//     console.log("iowuer");
-// })
+// // window.addEventListener("keydown", () => {
+// //     console.log("iowuer");
+// // })
 
-// window.onkeydown = () => {
-//     console.log("key down");
-// }
+// // window.onkeydown = () => {
+// //     console.log("key down");
+// // }
 
- console.log(arr);
-//  console.log(arr[4]());
+//  console.log(arr);
+// //  console.log(arr[4]());
