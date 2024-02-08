@@ -8,7 +8,6 @@ window.onload = async () => {
 
     const gallery = new Gallery((ArtPieces) => {
        document.querySelector("h1").innerText = ArtPieces.introduce();
-        audioPlayer.play(ArtPieces.sound);
 });
     result.forEach(item => {
        gallery.addArtPieces(item);

@@ -1,10 +1,8 @@
- import ArtPieces from "./ArtPieces.js.js";
+ import ArtPieces from "./ArtPieces.js";
 
  export default class Musicians extends ArtPieces{
 
-
-     #I;
-     constructor(data, callback) {
-        super(data, callback);
-}
-}
+    constructor(title, medium, image, artist) {
+        super("musicians", title, medium, image, artist);
+  }
+  }

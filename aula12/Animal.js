@@ -18,7 +18,7 @@
 // }
 
 // introduce() {
-// @@ -22,4 +25,11 @@ export default class Animal {
+// export default class Animal {
 // set name(value) {
 //     this.#name = value;
 // }

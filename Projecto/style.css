@@ -1,21 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    width: 1000px;
+    height: 1000px;
 }
     
 body {
-    display: flex;
-    background-image: linear-gradient(#ffafcc 50%, #a2d2ff 50%);
-    height: 100%;
-    flex: 1;
-    width: 100%;
+    
+    background-image: linear-gradient(to top left
+        #ffafcc,
+        #a2d2ff );
+    
 }
 
-h1 {
-    color: black;
-    text-align: center;
-    font-family: Bellefair;
-    font-size: 36px;
-    font-style: normal;
-}
 
