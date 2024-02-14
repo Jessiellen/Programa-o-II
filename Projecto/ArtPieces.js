@@ -1,60 +1,51 @@
- export default class Gallery {
+export default class ArtPiece {
+  #imageElem;
+  #callback;
+  #data;
+  view;
+  constructor(data, callback) {
+    this.#data = data;
+    this.#callback = callback;
+    this.view = document.createElement("div");
+    this.view.className = "item";
+    this.#imageElem = document.createElement("img");
+    this.#imageElem.src = this.#data.image;
+    this.#imageElem.onclick = () => this.#callback();
+    this.view.appendChild(this.#imageElem);
+  }
 
+  updateImage(newImageUrl) {
+      this.#imageElem.src = newImageUrl;
+  }
 
+  get type() {
+    return this.#data.type;
+  }
 
-     // constructor(type,title,medium,image,artist) {
-     //      this.type = type,
-     //      this.title = title,
-     //      this.medium = medium,
-     //      this.image = image,
-     //      this.artist = artist;
-     // }
-
-
-     #callback;
-     #imageElem;
-     #data;
-     constructor(data, callback) {
-
-        this.#data = data;
-         this.#callback = callback;
-
-         this.#imageElem = document.createElement("img");
-         this.#imageElem.src = this.#data.image;
-         this.#imageElem.onclick = () => this.#callback();
-
-         const container = document.querySelector("#");
-         container.appendChild(this.#imageElem);
-    }
-    introduce() {
-         return "" + this.#data.name;
+  get image() {
+      return this.#data.image;
     }
 
-    get type() {
-         return this.#data.type;
-    }
-    get image() {
-         return this.#data.image;
-    }
+  get artist() {
+    return this.#data.artist;
+  }
 
-    get name() {
-         return this.#data.name;
-    }
-    set name(value) {
-         this.#data.name = value;
-    }
+  get data() {
+      return this.#data;
+  }
+  
+  get medium() {
+      return this.#data.medium;
+  }
+  get title() {
+      return this.#data.title;
+  }
 
-    get active() {
-         return this.#imageElem.className.length !== 0;
-    }
-    set active(value) {
-         this.#imageElem.className = value ? 'active' : '';
+  set artist(value) {
+    this.#data.artist = value;
+  }
+
+  set name(value) {
+      this.#data.name = value;
 }
 }
-
-// build(); {
-//      const img = document.createElement("img");
-//      img.src = this.image.Path;
-
-//      document.body.appendChild(img);
-// }
